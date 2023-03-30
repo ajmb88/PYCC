@@ -21,7 +21,7 @@ with open(filename) as f:
             highs.append(high)
             lows.append(low)
 
-  
+    
 
 
 # Plot the high temperatures.
