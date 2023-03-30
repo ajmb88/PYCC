@@ -19,7 +19,7 @@ with open(filename) as f:
     # getting the next line from the csv file. using the value inside of 'date_index' to convert date into string.
     first_line = next(reader)
     first_date = datetime.strptime(first_line[date_index[0]], '%Y-%m-%d')
-    # test print
+    # test print 
     print(first_date)
 
     # adding the first date to the list then appening with every other date
