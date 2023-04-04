@@ -31,7 +31,7 @@ data = [{
     'marker' : {
         'size' : [7.3*mag for mag in mags],
         'color' : mags,
-        'colorscale' : 'Viridis',
+        'colorscale' : 'Earth',
         'reversescale' : True,
         'colorbar' : {'title' : 'Magnitude'},
         'symbol' : 'diamond',
