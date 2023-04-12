@@ -1,11 +1,11 @@
 import json
 
 # Explore the structure of the data.
-filename = 'Downloading_Data/data/eq_data_1_day_m1.json'
+filename = 'Downloading_Data/data/eq_data_30_day_m1.json'
 with open(filename) as f:
     all_eq_data = json.load(f)
 
-readable_file = 'Downloading_Data/data/New_Json_Files/readable_eq_data.json'
+readable_file = 'Downloading_Data/data/New_Json_Files/readable_30_eq_data.json'
 with open(readable_file, 'w') as f:
     json.dump(all_eq_data, f, indent=4)
 
