@@ -5,7 +5,7 @@ class Settings:
         """ Initiatize the games static settings."""
         
         # Screen settings.
-        self.screen_width = 1200
+        self.screen_width = 1000
         self.screen_height = 700
         self.bg_colour = (100, 190, 240)
 
@@ -13,7 +13,7 @@ class Settings:
         self.ship_limit = 3
 
         # Bullet settings
-        self.bullet_width = 4
+        self.bullet_width = 22
         self.bullet_height = 22
         self.bullet_colour = (60, 60, 60)
         self.bullets_allowed = 4
@@ -38,7 +38,7 @@ class Settings:
         # Speed settings.
         self.ship_speed = 5.2
         self.bullet_speed = 5.5
-        self.alien_speed = 3.5
+        self.alien_speed = 3
 
         # Direction settings.
         # Fleet direction of 1 represents right; -1 represents left.
